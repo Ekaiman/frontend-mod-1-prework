@@ -24,10 +24,10 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-
+console.log('Is numberTeachers less than numberStudents', numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-
+console.log('Is numberTeachers equal to stringTeachers', numberTeachers == stringTeachers);
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
@@ -36,6 +36,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+console.log('Is numberTeachers strictly equal to stringTeachers', numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -49,19 +50,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log('Is numberTeachers not equal to numberStudents', numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log('Is numberStudents greater than or equal to 20?', numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log('Is numberStudents greater than or equal to 21?', numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+console.log('Is numberStudents less than or equal to 20', numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log('Is numberStudents less than or equal to 21', numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -74,20 +79,27 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+//This line of code is comparing to see if 4 is less than 9 and will evaluate to true
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+//This line of code is evaluating if 4 is less than or equal to the variable value give to the variable name books,
+//which will evaluate to false because 4 is not less than 3
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+//This line of code is comparing the variable values of the two defined variables, friends and siblings. This will
+//evaluate to true becase 6 is greater than 2
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// This line of code is comparing if attendees is strictly not equal to meals. This will evaluate true,
+//because 9 is not equal to 8
 
 
 //-------------------
@@ -110,18 +122,28 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+/*console.log(lovesToPlay && isAPuppy);
+                           ^
+
+ReferenceError: isAPuppy is not defined*/
+
+// This is what isAPuppy evaluated to, because I did not define isAPuppy as a variables
+
+// or when ran as console.log(lovesToPlay && age);, it evaluates to 1 because
+// A && B reutrns A if A can be coerced into false and lovesToPlay is defined as true
+// so it must return the defined variable of age which is 1
 
 //-------------------
 // FINAL CHECK
