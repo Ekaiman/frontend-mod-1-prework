@@ -32,13 +32,19 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 - `Add Week 1 Screenshot Here`
+- <img width="804" alt="Screen Shot 2021-11-10 at 7 37 43 PM" src="https://user-images.githubusercontent.com/93098905/141228089-43118dbb-3932-41a7-8bda-38c0882ed3d3.png">
+
 - `Add Week 2 Screenshot Here`
+- <img width="936" alt="Screen Shot 2021-11-10 at 7 38 02 PM" src="https://user-images.githubusercontent.com/93098905/141228100-8b6fafe2-b9fd-43b1-a2cd-eb8a52cd4cab.png">
+
 - `Add Week 3 Screenshot Here`
+- <img width="935" alt="Screen Shot 2021-11-10 at 7 38 13 PM" src="https://user-images.githubusercontent.com/93098905/141228110-8a62c065-2c08-4ab9-a4a7-7b6b40957c4d.png">
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: https://gist.github.com/Ekaiman/bf1bfb99eb96c68bbe02f2b4ae208d94
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
@@ -48,7 +54,7 @@ You've learned a lot about how to take strong notes during Mod 0. Show us your s
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ] Add a link to your gist here: https://gist.github.com/Ekaiman/d3fc5fcaf90ef5e26192ca7548e0fe68
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
